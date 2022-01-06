@@ -25,3 +25,7 @@ def show_entries():
     print('response',res)
     print(res.text)
     return 'Hello, World!'
+
+@app.route('/test')
+def test():
+    return 'Hello!!'
