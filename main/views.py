@@ -28,4 +28,4 @@ def show_entries():
 
 @app.route('/test')
 def test():
-    return 'Hello!!'
+    return 'redirected_Hello!!'
