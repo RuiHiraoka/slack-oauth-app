@@ -28,4 +28,4 @@ def show_entries():
 
 @app.route('/test')
 def test():
-    return 'redirected_Hello!!'
+    return 'Successfully installed! \n Go bach to your workspace'+ os.environ['REDIRECT_URL']
