@@ -24,7 +24,7 @@ def show_entries():
     
     print('response',res)
     print(res.text)
-    return 'Hello, World!'
+    return 'Successfully installed! \n Go bach to your workspace'+ os.environ['REDIRECT_URL']
 
 @app.route('/test')
 def test():
